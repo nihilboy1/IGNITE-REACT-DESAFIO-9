@@ -16,7 +16,7 @@ export function SubscribeButton() {
     }
 
     if (session.activeSubscription){
-      router.push("https://ignewssam.vercel.app/posts")
+      router.push("/posts")
       return
     }
 
