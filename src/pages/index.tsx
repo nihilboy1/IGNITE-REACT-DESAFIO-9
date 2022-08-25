@@ -3,7 +3,7 @@ import Head from "next/head";
 import { SubscribeButton } from "../components/SubscribeButton";
 import { stripe } from "../services/stripe";
 
-import S from "./home.module.scss";
+import S from "../styles/home.module.scss";
 
 interface IProduct {
   product: {
